@@ -20,8 +20,15 @@ The contract itself is very basic, only has 3 purpose functions.
 
 ## Testing
 -> Cast_commands.md
-
 -> Deploy_commands.md
+
+## Frontend
+As our super mentor @D3portillo has taught us how to use nextJs Component and State Varibales, this repo contains a small Workshop inside /frontend/Workshop7december
+for nextJs starting guide.
+
+As this repo is forked i keep untouched the original page /frontend for interacting with 42EarntoHack posts.
+
+A new page on /frontend/FractolConsummer is being written with ethers library for interacting with Fractol SmartContract. 
 
 
 ## Register and Storage Slots
