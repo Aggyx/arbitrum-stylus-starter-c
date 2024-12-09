@@ -31,6 +31,11 @@ As this repo is forked i keep untouched the original page /frontend for interact
 A new page on /frontend/FractolConsummer is being written with ethers library for interacting with Fractol SmartContract. 
 
 ## Todo:
+  # Errores
+  --> Mint() no crea un token address válido para el fractal.
+  --> generate_fractal() no genera el fractal en el slot correcto.
+  --> get_fractal() -> devuelve 0x0.
+  
 --> Usage of Fractal function populating Fractal Struct.
 
 --> More 721 protocol alike contract. 
