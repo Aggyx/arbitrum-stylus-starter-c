@@ -1,5 +1,23 @@
 # Arbitrum Stylus Starter Template for C
 
+## NFT creation in Arbitrum Stylus !
+
+We are going to use Fractal functions from Common Core 42.
+Store thoses functions result in C-Struct for storing unique fractal seeds parameters.
+We will use NFT 721 logic like implementation for generating Unique and limited Fractol Tokens.
+
+## The Contract
+
+The contract itself is very basic, only has 3 purpose functions.
+-> Mint() -> Create a TokenId (1) attached to an walletAddress by a Counter variable. 
+-> generate_fractal() -> Supposed to load 32 bytes to storage the test-fractal-struct with its associated TokenId (1).
+-> get_fractal() -> Load 32 bytes of Fractal Struct with TokenId as key inside load cache
+
+## Testing
+-> Cast_commands.md
+-> Deploy_commands.md
+
+
 ## Register and Storage Slots
 
 Storage slots are pretty similar to registers in 32bit architectures.

@@ -4,5 +4,6 @@ contract.wasm
 contract_unstripped.wasm
 node_modules
 package-lock.json
+
 /target
 .vscode
