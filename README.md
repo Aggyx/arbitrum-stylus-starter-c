@@ -30,6 +30,14 @@ As this repo is forked i keep untouched the original page /frontend for interact
 
 A new page on /frontend/FractolConsummer is being written with ethers library for interacting with Fractol SmartContract. 
 
+## Todo:
+--> Usage of Fractal function populating Fractal Struct.
+
+--> More 721 protocol alike contract. 
+
+--> Struct  return enrichment for displaying capacities
+
+--> Test Frontend consummer
 
 ## Register and Storage Slots
 
