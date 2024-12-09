@@ -33,7 +33,9 @@ A new page on /frontend/FractolConsummer is being written with ethers library fo
 # Todo:
   ## Errores
   --> Mint() no crea un token address válido para el fractal.
+  
   --> generate_fractal() no genera el fractal en el slot correcto.
+  
   --> get_fractal() -> devuelve 0x0.
   
 --> Usage of Fractal function populating Fractal Struct.
