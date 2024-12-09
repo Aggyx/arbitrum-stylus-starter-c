@@ -1,6 +1,6 @@
 # Arbitrum Stylus Starter Template for C
 
-## NFT creation in Arbitrum Stylus !
+# NFT creation in Arbitrum Stylus !
 
 We are going to use Fractal functions from Common Core 42.
 
@@ -8,7 +8,7 @@ Store thoses functions result in C-Struct for storing unique fractal seeds param
 
 We will use NFT 721 logic like implementation for generating Unique and limited Fractol Tokens.
 
-## The Contract
+# The Contract
 
 The contract itself is very basic, only has 3 purpose functions.
 
@@ -18,11 +18,11 @@ The contract itself is very basic, only has 3 purpose functions.
 
 -> get_fractal() -> Load 32 bytes of Fractal Struct with TokenId as key inside load cache
 
-## Testing
+# Testing
 -> Cast_commands.md
 -> Deploy_commands.md
 
-## Frontend
+# Frontend
 As our super mentor @D3portillo has taught us how to use nextJs Component and State Varibales, this repo contains a small Workshop inside /frontend/Workshop7december
 for nextJs starting guide.
 
@@ -30,8 +30,8 @@ As this repo is forked i keep untouched the original page /frontend for interact
 
 A new page on /frontend/FractolConsummer is being written with ethers library for interacting with Fractol SmartContract. 
 
-## Todo:
-  # Errores
+# Todo:
+  ## Errores
   --> Mint() no crea un token address válido para el fractal.
   --> generate_fractal() no genera el fractal en el slot correcto.
   --> get_fractal() -> devuelve 0x0.
@@ -44,7 +44,7 @@ A new page on /frontend/FractolConsummer is being written with ethers library fo
 
 --> Test Frontend consummer
 
-## Register and Storage Slots
+# Register and Storage Slots
 
 Storage slots are pretty similar to registers in 32bit architectures.
 Since both have:
@@ -55,7 +55,7 @@ Since both have:
 
 3. Explicit Management: Like assembly programming, developers must explicitly manage how storage slots are allocated and used. Miss assignment of memory/slots can cause data corruption.
 
-## Requisitos
+# Requisitos
 
 - Brew (Mac) / Chocolatey (Windows)
 - Docker (Docker Desktop)
